@@ -1,7 +1,7 @@
 # List of links with properties
 links:
   - name: Good Song Club
-    url: https:goodsong.club
+    url: https://goodsong.club
     buttonColor: "#fcd34d"    # Purple
     icon: favorite
     iconType: material-symbols-outlined
