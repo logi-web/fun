@@ -3,5 +3,5 @@ links:
   - name: Good Song Club
     url: https:goodsong.club
     buttonColor: "#fcd34d"    # Purple
-    icon: crossword
+    icon: favorite
     iconType: material-symbols-outlined
