@@ -42,30 +42,40 @@ h1 {
     width: 100%;
 }
 .button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: auto 1fr;
     width: 80%;
     min-width: 160px;
-    padding: 15px;
+    padding: 15px 20px;
     color: white;
     border: none;
     border-radius: 5px;
     margin-bottom: 10px;
     text-decoration: none;
-    text-align: center;
+    text-align: left;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    gap: 10px;
+    gap: 5px 10px;
+}
+.button i {
+    grid-row: span 2;
+    align-self: start;
+    font-size: 24px;
+    margin-top: 3px;
 }
 .button .link-name {
+    grid-column: 2;
     font-size: 18px;
     font-weight: 500;
+    line-height: 1.2;
+    word-wrap: break-word;
 }
 .button .link-description {
+    grid-column: 2;
     font-size: 14px;
     opacity: 0.8;
-    margin-left: 5px;
+    line-height: 1.2;
+    word-wrap: break-word;
 }
 .material-icons, .material-symbols-outlined {
     font-size: 24px;
