@@ -43,6 +43,7 @@ h1 {
 }
 .button {
     display: flex;
+    flex-direction: column;  /* Changed to column for stacking */
     align-items: center;
     justify-content: center;
     width: 80%;
@@ -56,16 +57,18 @@ h1 {
     text-align: center;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    gap: 10px;
+    gap: 5px;  /* Reduced gap for stacked layout */
 }
 .button .link-name {
     font-size: 18px;
     font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 10px;  /* Gap between icon and name */
 }
 .button .link-description {
-    font-size: 10px;
+    font-size: 14px;
     opacity: 0.8;
-    margin-left: 5px;
 }
 .material-icons, .material-symbols-outlined {
     font-size: 24px;
