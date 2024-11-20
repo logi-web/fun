@@ -55,7 +55,7 @@ h1 {
     text-align: left;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    gap: 5px 10px;
+    gap: 5px 20px;
 }
 .button i {
     grid-row: span 2;
