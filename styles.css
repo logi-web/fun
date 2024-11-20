@@ -48,7 +48,6 @@ h1 {
     width: 80%;
     min-width: 160px;
     padding: 15px;
-    font-size: 18px;
     color: white;
     border: none;
     border-radius: 5px;
@@ -58,6 +57,15 @@ h1 {
     cursor: pointer;
     transition: background-color 0.3s ease;
     gap: 10px;
+}
+.button .link-name {
+    font-size: 18px;
+    font-weight: 500;
+}
+.button .link-description {
+    font-size: 14px;
+    opacity: 0.8;
+    margin-left: 5px;
 }
 .material-icons, .material-symbols-outlined {
     font-size: 24px;
