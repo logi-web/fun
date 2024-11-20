@@ -73,7 +73,7 @@ h1 {
 }
 .button .link-description {
     grid-column: 2;
-    font-size: 14px;
+    font-size: 10px;
     opacity: 0.8;
 }
 .material-icons, .material-symbols-outlined {
