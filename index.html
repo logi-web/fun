@@ -48,12 +48,15 @@ layout: null
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    {% if link.icon and link.iconType %}
-                        <i class="{{ link.iconType }}">{{ link.icon }}</i>
-                    {% endif %}
-                    <span class="link-name">{{ link.name }}</span>
+                    <span class="link-name">
+                        {% if link.icon and link.iconType %}
+                            <i class="{{ link.iconType }}">{{ link.icon }}</i>
+                        {% endif %}
+                        {{ link.name }}
+                    </span>
                     <span class="link-description">{{ link.description }}</span>
                 </a>
+            <a 
             {% endfor %}
         </div>
         <footer class="footer">
