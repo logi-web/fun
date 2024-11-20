@@ -51,8 +51,8 @@ layout: null
                     {% if link.icon and link.iconType %}
                         <i class="{{ link.iconType }}">{{ link.icon }}</i>
                     {% endif %}
-                    {{ link.name }}
-                    {{ link.description }}
+                    <span class="link-name">{{ link.name }}</span>
+                    <span class="link-description">{{ link.description }}</span>
                 </a>
             {% endfor %}
         </div>
