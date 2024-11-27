@@ -1,8 +1,8 @@
 # List of links with properties
 links:
-  - name: Good Song Club
-    description: Find new music shared by others
+  - name: Pascal Giron
+    description: ...
     url: https://goodsong.club
-    buttonColor: "#fcd34d"    # Purple
+    buttonColor: "#FF0000"    # Red
     icon: favorite
     iconType: material-symbols-outlined
