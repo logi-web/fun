@@ -1,6 +1,6 @@
 # _config.yml
 title: My links 
-description: List of Links
+description: List useful links 
 author: Pascal Giron
 baseurl: ""  # leave empty for user sites
 url: "" # leave empty for GitHub Pages to set automatically
