@@ -1,6 +1,6 @@
 # _config.yml
-title: Fun
-description: List of fun websites that make the world wide web a better place.
-author: Louis Giron
+title: My links 
+description: List of Links
+author: Pascal Giron
 baseurl: ""  # leave empty for user sites
 url: "" # leave empty for GitHub Pages to set automatically
